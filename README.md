@@ -5,3 +5,6 @@ linear search
 binary search
 queue data structure
 Need to convert the source code in java with explaination
+
+Java Algorithm
+Linear Search
