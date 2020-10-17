@@ -22,6 +22,7 @@ node* insertatbeg(node* head,int data1)
   newnode->next=head;
   newnode->data=data1;
   head=newnode;
+  cout<<"insertion done successfully of "<<data1;
   return(head);
 }
 void insertater(node* prevnode,int data1)
@@ -30,6 +31,7 @@ void insertater(node* prevnode,int data1)
   newnode->data=data1;
   newnode->next=prevnode->next;
   prevnode->next=newnode;
+  cout<<"inserted element is "<<data1;
   return;
 
 }
