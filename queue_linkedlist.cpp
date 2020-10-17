@@ -19,6 +19,7 @@ void enqueue(queue *q,int data)
     ptr->next=NULL;
     q->rear=ptr;
   q->front=ptr;
+    cout<<"insertion done";
   }
   else {
   node *newnode=new node();
@@ -27,6 +28,7 @@ void enqueue(queue *q,int data)
   cout<<data<<" inserted successfully\n";
   q->rear->next=newnode;
   q->rear=newnode;
+    couot<<"insertion done";
   }
 }
 void atfirst(queue *q)
