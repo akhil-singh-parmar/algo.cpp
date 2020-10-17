@@ -18,7 +18,7 @@ void bubblesort(int arr[],int n)
 }
 void printarray(int arr[],int n)  
   {
-  cout<<"the sorted array is ";
+  cout<<"the elements of this array are ";
   for(int k=0;k<n;k++)
   cout<<arr[k]<<" ";
 }
