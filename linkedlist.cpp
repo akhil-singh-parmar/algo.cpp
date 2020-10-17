@@ -46,6 +46,7 @@ newnode->next=NULL;
 
   }
   temp->next=newnode;
+  cout<<"insertion done successfully";
   return(head);
 
 }
