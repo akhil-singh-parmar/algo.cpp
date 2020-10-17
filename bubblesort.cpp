@@ -32,9 +32,6 @@ int main()
     cin>>arr[i];
   }
   cout<<"the unsorted array is ";
-  for(int h=0;h<n;h++)
-  {
-    cout<<arr[h]<<" ";
-  }
+  printarray(arr,n);
   bubblesort(arr,n);
 }
