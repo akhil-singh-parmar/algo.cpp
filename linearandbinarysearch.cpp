@@ -33,17 +33,18 @@ void binarysearch(int arr[],int n,int element)
   cout<<"element not found";
   return;
 }
-void linearsearch(int arr[],int n,int element)
+bool linearsearch(int arr[],int n,int element)
 {
   for(int i=0;i<n;i++)
   {
     if(arr[i]==element)
     {
       cout<<" the given element is present in our array";
-      return;
+      return 1;
     }
   }
   cout<<"the given element is not present in array";
+  return 0;
 }
 int main()
 { int n;
