@@ -70,13 +70,11 @@ int main()
   enqueue(q,6);
   enqueue(q,7);
   enqueue(q,8);
-  cout<<"queue before deletion\n";
   printqueue(q);
   dequeue(q);
   dequeue(q);
   dequeue(q);
   dequeue(q);
-  cout<<"queue after deletion\n";
   printqueue(q);
   atfirst(q);
   atlast(q);
