@@ -62,6 +62,7 @@ node* newnode= new node();
 newnode->data=data1;
 newnode->next=temp->next;
 temp->next=newnode;
+  cout<<"the element is inserted successfully";
 return(head);
 }
 void erase1(node* head,int n){
